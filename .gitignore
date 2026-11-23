@@ -1,0 +1,21 @@
+# Java / Spring Boot
+**/target/
+**/build/
+*.class
+
+# React / Node
+**/node_modules/
+**/dist/
+
+# Secrets
+.env
+.env.*
+!.env.example
+**/application-local.properties
+
+# IDE
+.idea/
+.vscode/
+
+# Logs
+*.log
